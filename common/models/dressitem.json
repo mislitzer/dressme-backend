@@ -1,0 +1,39 @@
+{
+  "name": "Dressitem",
+  "plural": "dressitem",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "activity": {
+      "type": "number",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "sensitivity": {
+      "type": "number",
+      "required": true
+    },
+    "tourdate": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
