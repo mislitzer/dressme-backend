@@ -30,6 +30,14 @@
     "tourdate": {
       "type": "date",
       "required": true
+    },
+    "forecast": {
+      "type": "string",
+      "required": false
+    },
+    "day": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
